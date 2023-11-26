@@ -1,0 +1,116 @@
+/*Hila Peled*/
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e6e6ff;
+  height: 108vh;
+}
+
+@media screen and (max-width: 50em) {
+  body {
+    flex-direction: column;
+    height: 100%;
+  }
+}
+/*Hila Peled*/
+body .heading {
+  margin: 3erm 0 5rem 0;
+}
+
+body .sub-title {
+  font-size: 3rem;
+  color: #fbfcfc;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+/*Hila Peled*/
+body .user-input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+@media screen and (max-width: 50em) {
+  body .user-input-section {
+    width: 100%;
+    margin: 2erm 0 0 0;
+  }
+}
+
+body .user-input-section .user-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+body .user-input-section .user-input input {
+  width: 80%;
+  max-width: 35erm;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  padding: 1.5rem 1rem;
+  margin: 1rem 1rem 2rem 1rem;
+  color: #6c6c6c;
+}
+body .button {
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1.5rem 2.5rem;
+  margin-bottom: 3rem;
+  background-color: #ead3ff;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+button:hover {
+  opacity: 0.7;
+  background-color: #c88eff;
+}
+body .qr-code-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+@media screen and (max-width: 50em) {
+  body .qr-code-container {
+    width: 100%;
+    margin: 8erm 0;
+  }
+}
+
+body .qr-code-container .qr-code {
+  display: flex;
+  border-radius: 1rem;
+  background-color: #d5d5fd;
+  width: fit-content;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+}
+body .qr-code-container .qr-code button {
+  display: flex;
+  justify-content: center;
+  background-color: #ead3ff;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-top: 2.5rem;
+  border-radius: 3rem;
+}
+
+boay .qr-code-container .qr-code button a {
+  font-size: 1.5rem;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 1rem;
+}
